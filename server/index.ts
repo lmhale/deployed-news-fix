@@ -33,6 +33,7 @@ const main = async () => {
       type:'postgres',
       url: process.env.DATABASE_URL,
       entities: [User, Favorite, Article],
+      extra: { ssl: true, rejectUnauthorized: false },
     });
     console.log("successfully connected to DB");
 
