@@ -10,7 +10,8 @@ import { User } from "./entity/User";
 import { Favorite } from "./entity/Favorite";
 import { Article } from "./entity/Article";
 import path from "path";
-
+import dotenv from 'dotenv'
+dotenv.config()
 
 const main = async () => {
   try {
@@ -20,7 +21,12 @@ const main = async () => {
     app.use(cookieParser())
     app.use(express.json());
     app.use(cors())
-    app.use(express.static(path.join(__dirname, 'build')));
+    app.use(express.static(path.join(__dirname, '../client/build')));
+
+    app.get("*", function (request, response) {
+      response.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
+    });
+
     const connectionOptions = await getConnectionOptions();
     await createConnection({
       ...connectionOptions,

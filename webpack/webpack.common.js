@@ -32,7 +32,7 @@ module.exports = {
     ],
   },
   output: {
-    path: path.resolve(__dirname, '..', './build'),
+    path: path.resolve(__dirname, '..', './client/build'),
     filename: 'bundle.js',
   },
   plugins: [
@@ -40,7 +40,7 @@ module.exports = {
       template: path.resolve(__dirname, '..', './client/public/index.html'),
     }),
     new Dotenv({
-      path: './.env',
+      path: path.resolve(__dirname,'..', '.env'),
       systemvars:true
     })
   ],
