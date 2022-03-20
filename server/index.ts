@@ -15,6 +15,7 @@ dotenv.config()
 
 const main = async () => {
   try {
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
     const app = express();
     //middleware
     app.use(bodyParser.json());
