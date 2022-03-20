@@ -24,8 +24,8 @@ const App = () => {
   <NavBar/>
 <Routes>
 
- {/* <Route  path="/" element={userId ? <NewsPage />:  <Navigate replace to ="/loginorsignup"/>} />   */}
-<Route path="/" element={<NewsPage/>} />
+  <Route  path="/" element={userId ? <NewsPage />:  <Navigate replace to ="/loginorsignup"/>} />   
+{/* <Route path="/" element={<NewsPage/>} /> */}
  <Route path="favorites" element={<FavoritesPage/>} />
 <Route  path="loginorsignup" element={ <LandingPage/>} /> 
 

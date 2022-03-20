@@ -4,6 +4,7 @@ export const Logout = () => {
     const navigate = useNavigate()
     const handleLogout = () => {
         localStorage.removeItem("userId")
+        localStorage.removeItem("token")
         navigate("../loginorsignup", { replace: true });
     }
     return (

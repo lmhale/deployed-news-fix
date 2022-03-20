@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-let API_URl = 'http://localhost:5000/'
+let API_URl = 'http://localhost:5000/api'
 export const favoritesApi = createApi({
     reducerPath: 'favorites',
     baseQuery: fetchBaseQuery({ baseUrl: API_URl}),

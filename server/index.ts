@@ -4,7 +4,7 @@ import * as bodyParser from "body-parser";
 import cors from "cors";
 import { Request, Response } from "express";
 import { Routes } from "./routes";
-import allRoutes from './routes/allRoutes'
+import api from './routes/allRoutes'
 import cookieParser from "cookie-parser"
 import { User } from "./entity/User";
 import { Favorite } from "./entity/Favorite";
@@ -27,9 +27,9 @@ const main = async () => {
       entities: [User, Favorite, Article],
     });
     console.log("successfully connected to DB");
-    app.use(express.static('build'));
+
     app.use(bodyParser.urlencoded({ extended: true }));
-    app.use('/', allRoutes)
+    app.use('/api', api)
  
     const port = process.env.PORT || 5000
     app.listen(port, () => {
