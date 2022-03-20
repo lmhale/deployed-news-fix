@@ -24,9 +24,12 @@ const main = async () => {
     app.use(cors())
     app.use(express.static(path.join(__dirname, '../client/build')));
 
-    app.get("*", function (request, response) {
-      response.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
-    });
+    // app.get("*", function (request, response) {
+    //   response.sendFile(path.resolve("./client/build", "index.html"));
+    // });
+    // app.get("/", (req, res) => {
+    //   res.sendFile(path.join(__dirname, "public", "index.html"));
+    //  });
 
     // // const connectionOptions = await getConnectionOptions();
     // await createConnection({
