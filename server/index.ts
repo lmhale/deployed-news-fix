@@ -44,6 +44,7 @@ const main = async () => {
         logging: false,
         extra: {
           ssl: true,
+          rejectUnauthorized: false
         },
         entities: [User, Favorite, Article],
       };
