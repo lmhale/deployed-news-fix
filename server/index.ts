@@ -27,9 +27,11 @@ const main = async () => {
       response.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
     });
 
-    const connectionOptions = await getConnectionOptions();
+    // const connectionOptions = await getConnectionOptions();
     await createConnection({
-      ...connectionOptions,
+      // ...connectionOptions,
+      type:'postgres',
+      url: process.env.DATABASE_URL,
       entities: [User, Favorite, Article],
     });
     console.log("successfully connected to DB");
