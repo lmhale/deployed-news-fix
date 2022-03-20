@@ -1,4 +1,4 @@
-import { createConnection, getConnectionOptions, getManager } from "typeorm";
+import { ConnectionOptions, createConnection, getConnectionOptions, getManager } from "typeorm";
 import express from "express";
 import * as bodyParser from "body-parser";
 import cors from "cors";
@@ -27,15 +27,43 @@ const main = async () => {
       response.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
     });
 
-    // const connectionOptions = await getConnectionOptions();
-    await createConnection({
-      // ...connectionOptions,
-      type:'postgres',
-      url: process.env.DATABASE_URL,
-      entities: [User, Favorite, Article],
-      extra: { ssl: true, rejectUnauthorized: false },
-    });
-    console.log("successfully connected to DB");
+    // // const connectionOptions = await getConnectionOptions();
+    // await createConnection({
+    //   // ...connectionOptions,
+    //   type:'postgres',
+    //   url: process.env.DATABASE_URL,
+    //   entities: [User, Favorite, Article],
+    //   extra: { ssl: true, rejectUnauthorized: false },
+    // });
+
+    const getOptions = async () => {
+      let connectionOptions: ConnectionOptions;
+      connectionOptions = {
+        type: 'postgres',
+        synchronize: false,
+        logging: false,
+        extra: {
+          ssl: false,
+        },
+        entities: [User, Favorite, Article],
+      };
+
+      if (process.env.DATABASE_URL) {
+        Object.assign(connectionOptions, { url: process.env.DATABASE_URL });
+      } 
+    
+      return connectionOptions;
+    };
+    const connect2Database = async (): Promise<void> => {
+      const typeormconfig = await getOptions();
+      await createConnection(typeormconfig);
+  };
+  
+  connect2Database().then(async () => {
+      console.log('Connected to database');
+  });
+
+   
 
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use('/api', api)
