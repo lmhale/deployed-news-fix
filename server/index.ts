@@ -43,7 +43,7 @@ const main = async () => {
         synchronize: false,
         logging: false,
         extra: {
-          ssl: false,
+          ssl: true,
         },
         entities: [User, Favorite, Article],
       };
