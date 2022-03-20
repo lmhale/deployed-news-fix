@@ -17,10 +17,10 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata":true,
     "resolveJsonModule": true,
-  
+   
   
   },
-  // "exclude": ["node_modules"],
+  "exclude": ["node_modules"],
   "include": ["client/**/*", "server/**/*", "routes"]
 }
 

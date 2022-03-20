@@ -27,37 +27,13 @@ const main = async () => {
       entities: [User, Favorite, Article],
     });
     console.log("successfully connected to DB");
-    
+    app.use(express.static('build'));
+    app.use(bodyParser.urlencoded({ extended: true }));
     app.use('/', allRoutes)
-    
-  //   app.get("/", (req, res) =>
-  //   res.sendFile(path.join(__dirname, "..", "public/index.html"))
-  // );
-
-    // Routes.forEach((route) => {
-    //   (app as any)[route.method](
-    //     route.route,
-    //     (req: Request, res: Response, next: Function) => {
-    //       const result = new (route.controller as any)()[route.action](
-    //         req,
-    //         res,
-    //         next
-    //       );
-    //       if (result instanceof Promise) {
-    //         result.then((result) =>
-    //           result !== null && result !== undefined
-    //             ? res.send(result)
-    //             : undefined
-    //         );
-    //       } else if (result !== null && result !== undefined) {
-    //         console.log(result);
-    //       }
-    //     }
-    //   );
-    // });
-
-    app.listen(3000, () => {
-      console.log("Now running on port 3000");
+ 
+    const port = process.env.PORT || 5000
+    app.listen(port, () => {
+      console.log(`Now running on port ${port} `);
     });
   } catch (error) {
     console.error(error);
