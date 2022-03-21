@@ -9,9 +9,8 @@ const router = Router()
 router.get('/:userId/favorites', FavoriteController.getAllFavorites)
 router.post('/:userId/favorites', FavoriteController.saveFavorite)
 router.delete('/:userId/favorites/:articleId', FavoriteController.removeFavorite)
-router.get('/testroute',  (Request, Response) => {
-    Response.json({hi:'woo'})
-})
+router.get('/articles',  FavoriteController.getAllArticles)
+
 router.post('/login', AuthController.LoginPost)
 router.post('/signup', AuthController.SignUpPost)
 

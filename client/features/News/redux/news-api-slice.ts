@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const api_key = process.env.API_KEY;
+
 
 export interface Article {
    id:string,
@@ -24,15 +24,15 @@ publishedAt: Date,
 
 export const newsApi = createApi({
     reducerPath: 'news',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://newsapi.org/v2/top-headlines', 
+    baseQuery: fetchBaseQuery({ baseUrl: '/api', 
     prepareHeaders(headers){
-                    headers.set('x-api-key',api_key)
+                    // headers.set('x-api-key',api_key)
                     return headers; 
                 } 
             }),
     endpoints: (builder) => ({
       getTopHeadlines: builder.query<Article, string|void>({
-        query: (category) => ({url:`?country=us&category=${category}`}),
+        query: (category) => ({url:'articles'}),
         transformResponse:(data:{articles: Article}) => {
           return data.articles
         },
