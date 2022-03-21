@@ -37,7 +37,7 @@ const main = async () => {
         synchronize: false,
         logging: false,
         extra: {
-          // ssl: true,
+          ssl: true,
           rejectUnauthorized: false
         },
         entities: [User, Favorite, Article],
