@@ -22,23 +22,13 @@ const main = async () => {
     app.use(cookieParser())
     app.use(express.json());
     app.use(cors())
-    app.use(express.static(path.join(__dirname, '../client/build')));
 
-    // app.get("*", function (request, response) {
-    //   response.sendFile(path.resolve("./client/build", "index.html"));
-    // });
-    // app.get("/", (req, res) => {
-    //   res.sendFile(path.join(__dirname, "public", "index.html"));
-    //  });
-
-    // // const connectionOptions = await getConnectionOptions();
-    // await createConnection({
-    //   // ...connectionOptions,
-    //   type:'postgres',
-    //   url: process.env.DATABASE_URL,
-    //   entities: [User, Favorite, Article],
-    //   extra: { ssl: true, rejectUnauthorized: false },
-    // });
+    app.use(express.static(path.join(__dirname, '../client', 'build')))
+   
+    app.get('*', async(Request, Response) => {
+      Response.sendFile(path.join(__dirname, '../client', 'build', 'index.html'))
+    })
+ 
 
     const getOptions = async () => {
       let connectionOptions: ConnectionOptions;
@@ -47,7 +37,7 @@ const main = async () => {
         synchronize: false,
         logging: false,
         extra: {
-          ssl: true,
+          // ssl: true,
           rejectUnauthorized: false
         },
         entities: [User, Favorite, Article],
