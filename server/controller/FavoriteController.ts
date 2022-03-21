@@ -70,7 +70,7 @@ class FavoriteController {
   static getAllArticles = async (request: Request, response: Response, next: NextFunction) => {
     try {
       const articles = await getRepository(Article).find()
-        return articles
+      response.json(articles)
     } catch (error) {
       response.send('something went wrong')
     }
