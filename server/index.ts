@@ -26,7 +26,8 @@ const main = async () => {
       const reactBuildPath = path.join(__dirname, '..', 'client', 'build')
       
     app.use(express.static(reactBuildPath))
-   
+    app.use(bodyParser.urlencoded({ extended: true }));
+    app.use('/api', api)
     app.get('*', async(Request, Response) => {
       Response.sendFile(path.join(reactBuildPath, 'index.html'))
     })
@@ -62,8 +63,7 @@ const main = async () => {
 
    
 
-    app.use(bodyParser.urlencoded({ extended: true }));
-    app.use('/api', api)
+  
  
     const port = process.env.PORT || 5000
     app.listen(port, () => {
