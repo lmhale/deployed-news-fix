@@ -3,6 +3,7 @@ import { NextFunction, Request, Response } from "express";
 import { Article } from "../entity/Article";
 import { User } from "../entity/User";
 import { Favorite } from "../entity/Favorite";
+import {NewsData} from '../NewsAPI'
 
 
 class FavoriteController {
@@ -69,10 +70,10 @@ class FavoriteController {
 
   static getAllArticles = async (request: Request, response: Response, next: NextFunction) => {
     try {
-      const articles = await getRepository(Article).find()
-      response.json(articles)
+
+      response.json(NewsData)
     } catch (error) {
-      response.send('something went wrong')
+      response.send(error)
     }
 
   }
