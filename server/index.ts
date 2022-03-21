@@ -22,11 +22,13 @@ const main = async () => {
     app.use(cookieParser())
     app.use(express.json());
     app.use(cors())
-
-    app.use(express.static(path.join(__dirname, '../client', 'build')))
+   
+      const reactBuildPath = path.join(__dirname, '..', 'client', 'build')
+      
+    app.use(express.static(reactBuildPath))
    
     app.get('*', async(Request, Response) => {
-      Response.sendFile(path.join(__dirname, '../client', 'build', 'index.html'))
+      Response.sendFile(path.join(reactBuildPath, 'index.html'))
     })
  
 
