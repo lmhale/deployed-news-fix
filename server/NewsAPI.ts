@@ -1,266 +1,267 @@
 export const NewsData = {
-    "status": "ok",
-    "totalResults": 38,
-    "articles": [
-        {
-            "source": {
-                "id": null,
-                "name": "Hollywood Reporter"
+
+        "status": "ok",
+        "totalResults": 38,
+        "articles": [
+            {
+                "source": {
+                    "id": null,
+                    "name": "ESPN"
+                },
+                "author": "Marcel Louis-Jacques",
+                "title": "Top free-agent offensive tackle Terron Armstead reaches 5-year deal with Miami Dolphins, source says - ESPN",
+                "description": "The Dolphins reached agreement with Pro Bowl left tackle Terron Armstead on a five-year deal worth up to $87.5 million, a source told ESPN's Adam Schefter, locking up one of the top free agents of the 2022 cycle.",
+                "url": "https://www.espn.com/nfl/story/_/id/33574023/top-free-agent-offensive-tackle-terron-armstead-reaches-5-year-deal-miami-dolphins-source-says",
+                "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0117%2Fr315683_1296x729_16%2D9.jpg",
+                "publishedAt": "2022-03-22T23:45:56Z",
+                "content": "MIAMI -- The Miami Dolphins on Tuesday reached agreement with offensive tackle Terron Armstead on a five-year deal worth up to $87.5 million, a source told ESPN's Adam Schefter, locking up one of the… [+4022 chars]"
             },
-            "author": "Hilary Lewis",
-            "title": "WGA Awards: ‘CODA,’ ‘Don’t Look Up’ Win Best Adapted, Original Screenplays - Hollywood Reporter",
-            "description": "CODA added another trophy to its haul this season at the 2022 Writers Guild Awards on Sunday, as the Apple film about a hearing child in a deaf family won the award for best adapted screenplay. CODA also won in top categories at the Producers Guild and Screen…",
-            "url": "https://www.hollywoodreporter.com/movies/movie-news/writers-guild-awards-2022-winners-list-1235115399/",
-            "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2022/03/CODA-and-Dont-Look-Up-Everett-H-Split-2022.jpg?w=1024",
-            "publishedAt": "2022-03-21T02:03:45Z",
-            "content": "CODA added another trophy to its haul this season at the 2022 Writers Guild Awards on Sunday, as the Apple film about a hearing child in a deaf family won the award for best adapted screenplay.\r\nCODA… [+23300 chars]"
-        },
-        {
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
+            {
+                "source": {
+                    "id": "the-wall-street-journal",
+                    "name": "The Wall Street Journal"
+                },
+                "author": "Vivian Salama",
+                "title": "Biden to Sanction Hundreds of Russian Lawmakers, U.S. Officials Say - The Wall Street Journal",
+                "description": "Biden administration preparing sanctions on more than 300 members of Russia’s lower house of parliament as soon as Thursday",
+                "url": "https://www.wsj.com/articles/biden-to-sanction-hundreds-of-russian-lawmakers-u-s-officials-say-11647987148",
+                "urlToImage": "https://images.wsj.net/im-510032/social",
+                "publishedAt": "2022-03-22T23:42:00Z",
+                "content": "WASHINGTONThe Biden administration is preparing sanctions on most members of Russias State Duma, the lower house of parliament, as the U.S. continues its crackdown on Moscow over its invasion of Ukra… [+344 chars]"
             },
-            "author": "By <a href=\"/profiles/helen-regan\">Helen Regan</a>, <a href=\"/profiles/steve-george\">Steve George</a>, Ben Church, <a href=\"/profiles/luke-mcgee\">Luke McGee</a>, Ed Upright, Maureen Chowdhury, <a href=\"/profiles/joe-ruiz\">Joe Ruiz</a>, Mike Hayes and <a href=\"/profiles/amir-vera\">Amir Vera</a>, CNN",
-            "title": "Russia invades Ukraine: Live updates - CNN",
-            "description": "US officials confirmed to CNN that Russia launched hypersonic missiles against Ukraine last week, the first known use of such missiles in combat. Follow here for live news updates.",
-            "url": "https://www.cnn.com/europe/live-news/ukraine-russia-putin-news-03-20-22/index.html",
-            "urlToImage": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/7a9d861e-0928-46c1-994c-7679015d6eb6.jpg",
-            "publishedAt": "2022-03-21T01:45:00Z",
-            "content": "Ukrainian officials say that another Russian commander has died during fighting, which they say would be the fifth Russian general to have been killed since the invasion on February 24.\r\nGen. Oleg Mi… [+1526 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New York Times"
+            {
+                "source": {
+                    "id": null,
+                    "name": "The Guardian"
+                },
+                "author": "Guardian staff reporter",
+                "title": "Duke and Duchess of Cambridge accused of benefiting from slavery - The Guardian",
+                "description": "William and Kate arrive in Jamaica to be met by protests calling for reparations from British monarchy",
+                "url": "https://amp.theguardian.com/uk-news/2022/mar/22/duke-and-duchess-of-cambridge-accused-of-benefiting-from-slavery",
+                "urlToImage": null,
+                "publishedAt": "2022-03-22T23:22:00Z",
+                "content": "JamaicaWilliam and Kate arrive in Jamaica to be met by protests calling for reparations from British monarchy\r\nTue 22 Mar 2022 22.01 GMT\r\nThe Duke and Duchess of Cambridge have been accused of benefi… [+5774 chars]"
             },
-            "author": "Christine Chung",
-            "title": "Justice Clarence Thomas Hospitalized With Flulike Symptoms, Court Says - The New York Times",
-            "description": "Justice Thomas, who has been hospitalized since Friday, is being treated with intravenous antibiotics and is expected to be released in a day or two, the Supreme Court said on Sunday.",
-            "url": "https://www.nytimes.com/2022/03/20/us/politics/clarence-thomas-hospitalized.html",
-            "urlToImage": "https://static01.nyt.com/images/2022/03/20/multimedia/20xp-thomas-01/20xp-thomas-01-facebookJumbo.jpg",
-            "publishedAt": "2022-03-21T00:51:20Z",
-            "content": "The statement said that Justice Thomas would participate in the consideration and discussion of any cases for which he is not present on the basis of the briefs, transcripts and audio of the oral arg… [+997 chars]"
-        },
-        {
-            "source": {
-                "id": "reuters",
-                "name": "Reuters"
+            {
+                "source": {
+                    "id": null,
+                    "name": "The Times of Israel"
+                },
+                "author": null,
+                "title": "PM vows strong response to terror after Beersheba attack; forces on ‘maximum alert’ - The Times of Israel",
+                "description": "Concern over possible 'copycat' attacks; Bennett says any accomplices will be found, praises civilians who shot terrorist; justice minister: We must strengthen governance in Negev",
+                "url": "https://www.timesofisrael.com/pm-vows-strong-response-to-terror-after-beersheba-attack-forces-on-maximum-alert/",
+                "urlToImage": "https://static.timesofisrael.com/www/uploads/2022/03/F220322FFF0007-1024x640.jpg",
+                "publishedAt": "2022-03-22T23:15:00Z",
+                "content": "Israeli leaders vowed on Tuesday to act firmly against terror after an Arab Israeli man killed four people and wounded several others in a stabbing and ramming attack in the southern city of Beersheb… [+7061 chars]"
             },
-            "author": null,
-            "title": "Chevron begins replacing workers ahead of California refinery strike - Reuters.com",
-            "description": "Chevron Corp began turning over some operations at a California oil refinery to replacement workers on Sunday ahead of a United Steelworkers strike set to begin shortly after 12 a.m. PDT on Monday.",
-            "url": "https://www.reuters.com/business/energy/union-workers-chevron-refinery-prepare-strike-monday-2022-03-20/",
-            "urlToImage": "https://www.reuters.com/resizer/bynb-ZWDJhitKDG-qVM9bokSJSI=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/7HZ2WHUWLNJIDLAGZZ3HWPZ6TE.jpg",
-            "publishedAt": "2022-03-21T00:31:00Z",
-            "content": "March 20 (Reuters) - Chevron Corp began turning over some operations at a California oil refinery to replacement workers on Sunday ahead of a United Steelworkers strike set to begin shortly after 12 … [+2459 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Eonline.com"
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Clare Foran, CNN",
+                "title": "Supreme Court nominee Ketanji Brown Jackson faces intense questioning on second day of confirmation hearings - CNN",
+                "description": "President Joe Biden's Supreme Court nominee, Ketanji Brown Jackson, defended her judicial record Tuesday as she faced intense questioning from Republican senators during the second day of her historic confirmation hearings.",
+                "url": "https://www.cnn.com/2022/03/22/politics/ketanji-brown-jackson-confirmation-hearings-day-two/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220321171545-45-ketanji-brown-jackson-hearing-cnnphotos-0321-super-tease.jpg",
+                "publishedAt": "2022-03-22T22:43:03Z",
+                "content": "(CNN)President Joe Biden's Supreme Court nominee, Ketanji Brown Jackson, defended her judicial record Tuesday as she faced intense questioning from Republican senators during the second day of her hi… [+10146 chars]"
             },
-            "author": "Ashley Joy Parker",
-            "title": "West Side Story's Rachel Zegler Says She Was \"Not Invited\" to the Oscars - E! NEWS",
-            "description": "Despite West Side Story earning seven Oscar nominations, its star Rachel Zegler said she’s been left off the ceremony’s guest list.",
-            "url": "https://www.eonline.com/news/1323850/west-side-story-s-rachel-zegler-says-she-was-not-invited-to-the-oscars",
-            "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2022220/rs_1200x1200-220320154906-1200-rachel-zegler.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
-            "publishedAt": "2022-03-20T23:29:00Z",
-            "content": "Rachel Zegler, lead actress of Oscar-nominated film West Side Story, won't be attending the 2022 Oscars.\r\nOn Sunday, March 20, the star claimed on Instagram that she did not receive an invitation to … [+632 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "MLB Trade Rumors"
+            {
+                "source": {
+                    "id": "cbs-news",
+                    "name": "CBS News"
+                },
+                "author": null,
+                "title": "Jailed Putin foe Navalny convicted of new fraud charges, adding 9 years to his prison term - CBS News",
+                "description": "\"We are now talking not only about Alexey's freedom, but also about his life,\" an aide to Vladimir Putin's most vocal critic said after the new sentence was handed down.",
+                "url": "https://www.cbsnews.com/news/alexey-navalny-russia-vladimir-putin-critic-new-fraud-charges-prison-sentence/",
+                "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2022/03/22/59c9f622-5650-4fc9-b3a8-ad66b0a93115/thumbnail/1200x630/2cec6201540b190fb4b2edbd9ff4c117/2022-03-22t080851z-690049640-rc2j7t9ckk1h-rtrmadp-3-russia-politics-navalny.jpg",
+                "publishedAt": "2022-03-22T22:19:00Z",
+                "content": "Moscow — Imprisoned Russian opposition leader Alexey Navalny has been handed a lengthy prison term on top of the one he is already serving. In a trial that Kremlin critics see as an attempt to keep P… [+3886 chars]"
             },
-            "author": "Mark Polishuk",
-            "title": "Free Agent Notes: Correa, Braves, Story, Tigers, Cueto - MLB Trade Rumors",
-            "description": "The Braves were somewhat surprisingly connected to Carlos Correa prior to the lockout, and the two sides did re-engage to &hellip;",
-            "url": "https://www.mlbtraderumors.com/2022/03/free-agent-notes-correa-braves-story-tigers-cueto.html",
-            "urlToImage": "https://cdn.mlbtraderumors.com/files/2021/06/trevorstory-2021-1024x683.jpg",
-            "publishedAt": "2022-03-20T22:58:18Z",
-            "content": "Jon Heyman on Twitter:\r\nThere are about $57M in deferrals to be paid out from 2028 to 2040 in Freemans Dodgers contract, making it worth about $140M over 6 years@feinsand1st reported\r\nThe Braves offe… [+1229 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "KTLA Los Angeles"
+            {
+                "source": {
+                    "id": null,
+                    "name": "Defector.com"
+                },
+                "author": null,
+                "title": "BuzzFeed CEO Jonah Peretti No Longer Pretending To Care - Defector",
+                "description": "About a year ago, BuzzFeed CEO Jonah Peretti laid off 70 employees, including 47 HuffPost staffers based in the U.S., in an effort to, as he put it, “drive longterm sustainability.” Today, he announced that he will once again be “reducing” his company’s workf…",
+                "url": "https://defector.com/buzzfeed-ceo-jonah-peretti-no-longer-pretending-to-care/",
+                "urlToImage": "https://lede-admin.defector.com/wp-content/uploads/sites/28/2022/03/GettyImages-696226052.jpg?resize=1080,720",
+                "publishedAt": "2022-03-22T22:19:00Z",
+                "content": "About a year ago, BuzzFeed CEO Jonah Peretti laid off 70 employees, including 47 HuffPost staffers based in the U.S., in an effort to, as he put it, drive longterm sustainability. Today, he announced… [+7223 chars]"
             },
-            "author": "Travis Schlepp",
-            "title": "Reward offered for information on driver who jumped Tesla in Echo Park - KTLA Los Angeles",
-            "description": "A failed stunt in Echo Park has the LAPD offering a reward for information that leads to the arrest of a driver of a rented Tesla that went airborne before colliding with two parked cars. Video of the Sunday morning crash was shared by the Los Angeles Police …",
-            "url": "https://ktla.com/news/local-news/reward-offered-for-information-on-driver-who-jumped-tesla-in-echo-park/",
-            "urlToImage": "https://ktla.com/wp-content/uploads/sites/4/2022/03/TeslaAirborne.jpg?w=1280",
-            "publishedAt": "2022-03-20T22:55:19Z",
-            "content": "A failed stunt in Echo Park has the LAPD offering a reward for information that leads to the arrest of a driver of a rented Tesla that went airborne before colliding with two parked cars.\r\nVideo of t… [+1475 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "ESPN"
+            {
+                "source": {
+                    "id": "associated-press",
+                    "name": "Associated Press"
+                },
+                "author": "Mike Schneider",
+                "title": "Disney in balancing act as some workers walk out in protest - The Associated Press - en Español",
+                "description": "ORLANDO, Fla. (AP) — With some workers across the U.S. threatening a walkout Tuesday, The Walt Disney Co. finds itself in a balancing act between the expectations of a diverse workforce and demands from an increasingly polarized, politicized marketplace.",
+                "url": "https://apnews.com/article/business-travel-arts-and-entertainment-florida-lifestyle-be24e5ea65acff3e1cfe94649c26e023",
+                "urlToImage": "https://storage.googleapis.com/afs-prod/media/bd9e2d1ce45f4b068c53942b487329c8/3000.jpeg",
+                "publishedAt": "2022-03-22T22:07:30Z",
+                "content": "ORLANDO, Fla. (AP) With some workers across the U.S. threatening a walkout Tuesday, The Walt Disney Co. finds itself in a balancing act between the expectations of a diverse workforce and demands fro… [+6866 chars]"
             },
-            "author": "Ben Baby",
-            "title": "Former Dallas Cowboys lineman La'el Collins agrees to three-year contract with Cincinnati Bengals - ESPN",
-            "description": "Former Dallas Cowboys offensive tackle La'el Collins finalized a three-year deal with the Bengals on Sunday, as Cincinnati continued to retool its line in front of Joe Burrow after its Super Bowl run last season.",
-            "url": "https://www.espn.com/nfl/story/_/id/33558280/former-dallas-cowboys-lineman-lael-collins-agrees-three-year-contract-cincinnati-bengals",
-            "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F1212%2Fr950330_1296x729_16%2D9.jpg",
-            "publishedAt": "2022-03-20T22:37:30Z",
-            "content": "CINCINNATI -- The text message that flashed across La'el Collins' phone on Sunday was the question Cincinnati Bengals fans kept asking throughout the weekend. And it was from the most prominent perso… [+3331 chars]"
-        },
-        {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
+            {
+                "source": {
+                    "id": null,
+                    "name": "OregonLive"
+                },
+                "author": "Aron Yohannes | The Oregonian/OregonLive",
+                "title": "Joey Harrington offers Marcus Mariota a good piece of advice after Atlanta Falcons signing - OregonLive",
+                "description": "Harrington spent the last season of his career with the Falcons in 2007.",
+                "url": "https://www.oregonlive.com/ducks/2022/03/joey-harrington-offers-marcus-mariota-a-good-piece-of-advice-after-atlanta-falcons-signing.html",
+                "urlToImage": "https://www.oregonlive.com/resizer/TaAmW5rdSEdMG-JZ8_8V1TF4S10=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/ZK64VNHQNZGOZDPP53IXFOWJUI.jpg",
+                "publishedAt": "2022-03-22T21:55:00Z",
+                "content": "Former Oregon Ducks quarterback Joey Harrington knows a lot about playing in the NFL. Particularly, he knows what its like to play for a franchise like the Atlanta Falcons.\r\nHarrington spent his firs… [+1751 chars]"
             },
-            "author": "Emma Roth",
-            "title": "Nintendo Wii and DSi Shop channels have been down for days - The Verge",
-            "description": "Both the Nintendo Wii and DSi Shop channels have been offline for days, worrying players that this may mean a permanent shutdown.",
-            "url": "https://www.theverge.com/2022/3/20/22988097/nintendo-wii-dsi-shop-channels-down-for-days",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/ISSSXJr6XqbmqvHvh19u98ggUUw=/0x0:1020x534/fit-in/1200x630/cdn.vox-cdn.com/assets/1148010/20120530-DSC_4049-VERGE.jpg",
-            "publishedAt": "2022-03-20T22:32:54Z",
-            "content": "Both shops have been down for at least four days\r\nThe Nintendo Wii and DSi Shop channels have been offline for several days, according to a report from Eurogamer. Both shops may have been down for as… [+1250 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "New York Times"
+            {
+                "source": {
+                    "id": null,
+                    "name": "The Philadelphia Inquirer"
+                },
+                "author": "Max Marin, Rodrigo Torrejón and Ryan W. Briggs",
+                "title": "Woman, 21, charged in crash that killed two state troopers and a civilian on I-95 - The Philadelphia Inquirer",
+                "description": "Jayana Tanae Webb, of Eagleville, with three counts of third-degree murder, homicide by vehicle, and DUI-related charges.",
+                "url": "https://www.inquirer.com/news/i-95-accident-philadelphia-jayana-tanae-webb-charges-troopers-killed-20220322.html",
+                "urlToImage": "https://www.inquirer.com/resizer/sr862LlIyI8pkGKbDF-PtuR-Y_E=/760x507/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/pmn/MUPF4XV4AREC5IKOYATKZJLLKM.jpg",
+                "publishedAt": "2022-03-22T21:50:20Z",
+                "content": "Pennsylvania State Troopers on Tuesday announced the arrest of the 21-year-old driver who authorities say fatally struck and killed two state troopers and a civilian on I-95 early Monday.\r\nAuthoritie… [+4347 chars]"
             },
-            "author": "Adam Zagoria",
-            "title": "Men’s N.C.A.A. Tournament: Houston Advances to Round of 16 - The New York Times",
-            "description": "Houston, a Final Four team a year ago, advanced with its win against Illinois. Villanova beat Ohio State.",
-            "url": "https://www.nytimes.com/2022/03/20/sports/ncaabasketball/march-madness-sunday-watch.html",
-            "urlToImage": "https://static01.nyt.com/images/2022/03/20/multimedia/20mcbtournament-earlytop/20mcbtournament-earlytop-facebookJumbo.jpg",
-            "publishedAt": "2022-03-20T22:06:04Z",
-            "content": "One year after reaching the Final Four of the N.C.A.A. mens basketball tournament, Houston is making another run. This time, it is doing it with five new starters and an overhauled roster.\r\nThe Couga… [+1186 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "CNBC"
+            {
+                "source": {
+                    "id": "cbs-news",
+                    "name": "CBS News"
+                },
+                "author": "Zoe Christen Jones",
+                "title": "Amanda Bynes' conservatorship terminated after nearly 9 years - CBS News",
+                "description": "The actress has regained control over her personal, medical and financial decisions.",
+                "url": "https://www.cbsnews.com/news/amanda-bynes-conservatorship-terminated/",
+                "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2022/03/22/e882dd28-b7af-443d-a9af-34a84be473ed/thumbnail/1200x630/96f54fbfb8783ff7c18f0d538e2e5055/gettyimages-91394751.jpg",
+                "publishedAt": "2022-03-22T21:42:00Z",
+                "content": "Former actress Amanda Bynes' conservatorship was officially terminated by a judge in Ventura County, California, on Tuesday. The ruling brings an end to the nearly 9-year conservatorship and gives By… [+2828 chars]"
             },
-            "author": "Maggie Fitzgerald",
-            "title": "Stock futures are steady after S&P 500's best week since 2020 - CNBC",
-            "description": "Last week, the three major averages notched their best week since November 2020, boosted largely by growth stocks.",
-            "url": "https://www.cnbc.com/2022/03/20/stock-market-futures-open-to-close-news.html",
-            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107033170-1647637982340-gettyimages-1051970962-US_STOCKS.jpeg?v=1647638072&w=1920&h=1080",
-            "publishedAt": "2022-03-20T22:03:40Z",
-            "content": "U.S. stock futures were steady in overnight trading on Sunday after the S&amp;P 500's best week since 2020.\r\nDow futures edged up 15 points. S&amp;P 500 futures rose 0.04% and Nasdaq 100 futures were… [+1932 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "YouTube"
+            {
+                "source": {
+                    "id": "the-verge",
+                    "name": "The Verge"
+                },
+                "author": "Mitchell Clark",
+                "title": "Apple Music and the App Store are suffering another outage - The Verge",
+                "description": "One day after the last massive outage, some of Apple’s services are down again. The App Store on iOS and Mac and Apple Music are the sources of problems so far.",
+                "url": "https://www.theverge.com/2022/3/22/22991792/apple-music-app-store-is-down-outage",
+                "urlToImage": "https://cdn.vox-cdn.com/thumbor/r9UQpwU7k-G2aeq6L8OPdaS9jKc=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/11477053/acastro_180604_1777_apple_wwdc_0004.jpg",
+                "publishedAt": "2022-03-22T21:40:07Z",
+                "content": "Apple Music and the App Store are misbehaving\r\nThe company faced a much larger outage yesterday.\r\nIllustration by Alex Castro / The Verge\r\nA few of Apples services are experiencing another outage, ju… [+1527 chars]"
             },
-            "author": null,
-            "title": "At least 24 people shot at Arkansas car show - ABC News",
-            "description": "One person is dead and at least 24 people were shot at a car show in rural Arkansas on Saturday night, according to police.#ArkansasCarShow #Shootings #CarSh...",
-            "url": "https://www.youtube.com/watch?v=JE71RjEmUHo",
-            "urlToImage": "https://i.ytimg.com/vi/JE71RjEmUHo/hqdefault.jpg",
-            "publishedAt": "2022-03-20T21:50:07Z",
-            "content": null
-        },
-        {
-            "source": {
-                "id": "the-washington-post",
-                "name": "The Washington Post"
+            {
+                "source": {
+                    "id": null,
+                    "name": "TVLine"
+                },
+                "author": "Mekeisha Madden Toby",
+                "title": "'Bridgerton' Season 2: Where Is Rege-Jean Page's Simon? - TVLine",
+                "description": "Rest assured, Simon Basset, the Duke of Hastings, is alive and (we assume) well in Bridgerton Season 2. You just can’t see him. Despite buzz to the contrary, actor Rege-Jean Page — whose exit announcement sent shockwaves through the TV biz last April — makes …",
+                "url": "https://tvline.com/2022/03/22/bridgerton-simon-duke-missing-season-2-rege-jean-page/",
+                "urlToImage": "https://tvline.com/wp-content/uploads/2020/12/Bridgerton-Season-2.jpg?w=618",
+                "publishedAt": "2022-03-22T21:40:00Z",
+                "content": "Rest assured, Simon Basset, the Duke of Hastings, is alive and (we assume) well in Bridgerton Season 2. You just can’t see him. \r\nDespite buzz to the contrary, actor Rege-Jean Page — whose exit annou… [+1252 chars]"
             },
-            "author": "Loveday Morris, Annabelle Timsit",
-            "title": "Russia bombs Mariupol art school where 400 people were sheltering, Ukrainian officials say - The Washington Post",
-            "description": "Mayor Vadym Boychenko said thousands of people who had been sheltering in a sports hall had been deported at gunpoint to Russia.",
-            "url": "https://www.washingtonpost.com/world/2022/03/20/mariupol-art-school-civilians-russia/",
-            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KXA4ZCFIOUI6ZCUOTRXJ7R5A3Y.jpg&w=1440",
-            "publishedAt": "2022-03-20T21:48:40Z",
-            "content": "Hundreds might be dead, the mayor said, but some of those sheltering at the school could have fled ahead of the bombing along evacuation routes that have opened up. We still have to work it out, Boyc… [+6704 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "KABC-TV"
+            {
+                "source": {
+                    "id": "the-washington-post",
+                    "name": "The Washington Post"
+                },
+                "author": "Matthew Cappucci, Jacob Feuerstein, Jason Samenow",
+                "title": "Severe weather outbreak underway in South after deadly tornadoes tear through Texas - The Washington Post",
+                "description": "Tornado watches are in effect for large areas of Louisiana, Mississippi and Alabama on Tuesday.",
+                "url": "https://www.washingtonpost.com/weather/2022/03/22/texas-tornadoes-south-severe-weather/",
+                "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/03-22-2022/t_a11686fe3e5049e79b32dfbe9062d9a8_name_texas_tornadoes.png&w=1440",
+                "publishedAt": "2022-03-22T21:25:45Z",
+                "content": "Texas Gov. Greg Abbott (R) declared a severe weather disaster in 16 counties Tuesday following the storms.\r\nThe same parent storm system was shifting east Tuesday, sweeping through the Deep South wit… [+8617 chars]"
             },
-            "author": "ABC7 Chicago Digital Team",
-            "title": "Recall: Jergens Ultra Healing Moisturizer recalled for harmful bacteria Pluralibacter gergoviae - KABC-TV",
-            "description": "Select Jergens moisturizer products possibly contaminated with harmful bacteria that could cause infections in people with weakened immune systems.",
-            "url": "https://abc7.com/recall-jergens-lotion-moisturizer/11667445/",
-            "urlToImage": "https://cdn.abcotvs.com/dip/images/11667459_032022-wls-lotion-recall-img.jpg?w=1600",
-            "publishedAt": "2022-03-20T21:21:11Z",
-            "content": "A popular skin moisturizer is being recalled because it may contain a harmful bacteria.The FDA is asking consumers to check their 3-ounce and 10-ounce bottles of Jergens Ultra Healing Moisturizer.\r\nI… [+559 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "The A.V. Club"
+            {
+                "source": {
+                    "id": null,
+                    "name": "Live Science"
+                },
+                "author": "Nicoletta Lanese",
+                "title": "Scientists make yeast-free pizza dough that rises like the real thing - Livescience.com",
+                "description": "Their goal was to make tasty dough without a chemical agent.",
+                "url": "https://www.livescience.com/yeast-free-pizza-dough-physics",
+                "urlToImage": "https://cdn.mos.cms.futurecdn.net/itmojZMzmxs69a4uGMHLq8-1200-80.jpg",
+                "publishedAt": "2022-03-22T21:18:20Z",
+                "content": "A materials scientist with a yeast allergy set out to make a yeast-free pizza dough that still rises like a classic Neapolitan pie.\r\nNow, in a new paper published March 22 in the journal Physics of F… [+3841 chars]"
             },
-            "author": "Sam Barsanti",
-            "title": "The Batman stays strong, but Jujutsu Kaisen 0 bites off a chunk of the weekend box office - The A.V. Club",
-            "description": "A large batch of new titles can't hold off Robert Pattinson's Dark Knight",
-            "url": "https://www.avclub.com/the-batman-jujutsu-kaisen-weekend-box-office-1848678220",
-            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/f0e76d86e3c14a2ab4aec52249815249.jpg",
-            "publishedAt": "2022-03-20T21:11:00Z",
-            "content": "There are some nice shake-ups in this weekends box office charts, led by the very strong debut of anime tie-in/manga adaptation Jujutsu Kaisen 0: The Movie. It opened in second place with $14.8 milli… [+1787 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Motorsport.com"
+            {
+                "source": {
+                    "id": "abc-news",
+                    "name": "ABC News"
+                },
+                "author": "Luke Barr",
+                "title": "FBI 'concerned' about Russian cyberattacks on critical US infrastructure: Wray - ABC News",
+                "description": "",
+                "url": "https://abcnews.go.com/Politics/fbi-concerned-russian-cyberattacks-critical-us-infrastructure-wray/story?id=83604956",
+                "urlToImage": "https://s.abcnews.com/images/Politics/politics-washington-fbi-wray-01-gty-llr-220322_1647981578708_hpMain_16x9_992.jpg",
+                "publishedAt": "2022-03-22T21:16:42Z",
+                "content": "FBI Director Christopher Wray said Tuesday the FBI is \"concerned' with the possibility of Russian cyberattacks against critical U.S. infrastructure in the wake of Russia's war with Ukraine.\r\n\"The rea… [+6219 chars]"
             },
-            "author": "Haydn Cobb",
-            "title": "Leclerc explains F1 tactics for beating Verstappen in Bahrain GP battles - Motorsport.com",
-            "description": "Charles Leclerc has revealed his tactics to keep Max Verstappen behind during the Bahrain Grand Prix which launched his victory charge at the 2022 Formula 1 opener.",
-            "url": "https://www.motorsport.com/f1/news/leclerc-explains-tactics-for-beating-verstappen-in-bahrain-gp-battles/9171149/",
-            "urlToImage": "https://cdn-1.motorsport.com/images/amp/6b7Q84p0/s6/formula-1-bahrain-gp-2022-spar-3.jpg",
-            "publishedAt": "2022-03-20T20:45:50Z",
-            "content": "The Monegasque driver led a Ferrari 1-2 from teammate Carlos Sainz Jr after Verstappen suffered a fuel system failure with his Red Bull that forced him to retire from the race late on, having fought … [+2277 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "SciTechDaily"
+            {
+                "source": {
+                    "id": null,
+                    "name": "WCVB Boston"
+                },
+                "author": null,
+                "title": "Salem, Massachusetts, man arrested, charged in Bedford woman’s brutal 1971 slaying, investigators say - WCVB Boston",
+                "description": "More than 50 years after a Bedford woman was found slain in the basement of her home, charges have been filed in the case.",
+                "url": "https://www.wcvb.com/article/man-arrested-in-1971-bedford-murder-investigators-say/39504969",
+                "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/nataliescheublin2-copy-1647975320.jpg?crop=1.00xw:0.677xh;0,0.0841xh&resize=1200:*",
+                "publishedAt": "2022-03-22T21:13:00Z",
+                "content": "BEDFORD, Mass. —More than 50 years after a Bedford woman was found slain in the basement of her home, charges have been filed in the case, the Middlesex District Attorney and the Bedford police annou… [+1963 chars]"
             },
-            "author": null,
-            "title": "Scientists Discover New Form of Ice – May Be Common on Distant, Water-Rich Planets - SciTechDaily",
-            "description": "Findings could have implications for our understanding of distant, water-rich planets. NLV researchers have discovered a new form of ice, redefining the properties of water at high pressures. Solid water, or ice, is like many other materials in that it can fo…",
-            "url": "https://scitechdaily.com/scientists-discover-new-form-of-ice-may-be-common-on-distant-water-rich-planets/",
-            "urlToImage": "https://scitechdaily.com/images/Laser-Heating-in-Diamond-Anvil-Cell.jpg",
-            "publishedAt": "2022-03-20T20:37:00Z",
-            "content": "UNLV physicists pioneered a new laser-heating technique in a diamond anvil cell (pictured here) as part of their discovery of a new form of ice. Credit: Chris Higgins\r\nFindings could have implication… [+4102 chars]"
-        },
-        {
-            "source": {
-                "id": "the-hill",
-                "name": "The Hill"
+            {
+                "source": {
+                    "id": null,
+                    "name": "Fox Business"
+                },
+                "author": "Lucas Manfredi",
+                "title": "Elon Musk's Tesla tweets are fair game for investigation, SEC says - Fox Business",
+                "description": "\"So long as Musk and Tesla use Musk’s Twitter account to disclose information to investors, the SEC may legitimately investigate matters relating to Tesla’s disclosure controls and procedures, including Musk’s tweets about Tesla” the regulator wrote.",
+                "url": "https://www.foxbusiness.com/markets/elon-musk-tesla-tweets-sec-investigation",
+                "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/02/0/0/musk-SEC.png?ve=1&tl=1",
+                "publishedAt": "2022-03-22T20:55:26Z",
+                "content": "The Securities and Exchange Commission argued in a Tuesday filing with the U.S. District Court in Manhattan that Tesla and Elon Musk have \"no valid substantive basis\" to challenge a subpoena issued b… [+3765 chars]"
             },
-            "author": "Olafimihan Oshin",
-            "title": "Zelensky criticizes Israel's response to Russian war in speech to lawmakers | TheHill - The Hill",
-            "description": "Ukrainian President Volodymyr Zelensky implored Israeli...",
-            "url": "https://thehill.com/policy/international/europe/598963-zelensky-presses-israel-on-response-to-russia-in-speech-to",
-            "urlToImage": "https://thehill.com/sites/default/files/article_images/zelenskyvolodymyr_030722_ap_ukrainian_presidential_press_office_via_ap.jpeg",
-            "publishedAt": "2022-03-20T20:22:03Z",
-            "content": "Ukrainian President Volodymyr Zelensky implored Israeli lawmakers on Sunday to help his country defend itself against Russia, The Jerusalem Post reported.  \r\nIn a speech to the Israeli Knesset, Zelen… [+1959 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "WFAA.com"
+            {
+                "source": {
+                    "id": null,
+                    "name": "CNBC"
+                },
+                "author": "Amelia Lucas",
+                "title": "Seattle Starbucks location unanimously votes in favor of unionizing, a first in the company's hometown - CNBC",
+                "description": "The Seattle location is the seventh company-owned Starbucks cafe to vote in favor of unionizing under Workers United.",
+                "url": "https://www.cnbc.com/2022/03/22/seattle-starbucks-union-vote-passes-unanimously-in-the-companys-hometown.html",
+                "urlToImage": "https://image.cnbcfm.com/api/v1/image/107034889-1647978879290-gettyimages-1237987382-AFP_9X49AZ.jpeg?v=1647978912&w=1920&h=1080",
+                "publishedAt": "2022-03-22T20:38:21Z",
+                "content": "Starbucks baristas at a Seattle location on Tuesday unanimously voted to unionize, a first in the company's hometown.\r\nThe Seattle location on Broadway and Denny Way joins six other company-owned Sta… [+2724 chars]"
             },
-            "author": "WFAA Staff",
-            "title": "Texas wildfire updates: Latest on evacuations, containment, acres burned - WFAA.com",
-            "description": "Wildfires in Eastland County are continuing to burn Sunday, while a new fire along the Hood and Erath county line is prompting evacuations.",
-            "url": "https://www.wfaa.com/article/news/local/texas/texas-wildfire-updates-latest-eastland-county-fire-evacuations-containment-acres/287-b9186d00-7da7-41e1-81d7-0f1e67f9fa75",
-            "urlToImage": "https://media.wfaa.com/assets/WFAA/images/e069d44a-7b23-4c50-8431-5dfb6d63f340/e069d44a-7b23-4c50-8431-5dfb6d63f340_1140x641.jpg",
-            "publishedAt": "2022-03-20T20:01:00Z",
-            "content": "EASTLAND, Texas Dry and windy conditions have been fueling wildfires in different areas west of the Dallas-Fort Worth Metroplex.\r\nWildfires in Eastland County had burned about 54,000 acres by Saturda… [+4829 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Austin American-Statesman"
-            },
-            "author": "Natalia E. Contreras, Tony Plohetski",
-            "title": "4 shot on Sixth Street early Sunday during SXSW; no critical injuries, police say - Austin American-Statesman",
-            "description": "The shooting happened around 2 a.m. at Sixth and Trinity streets. As police swarmed the scene, authorities issued an alert on social media.",
-            "url": "https://www.statesman.com/story/news/2022/03/20/4-shot-downtown-austin-6th-street-during-sxsw-no-critical-injuries/7111684001/",
-            "urlToImage": "https://www.gannett-cdn.com/presto/2022/03/20/NAAS/07af23cc-c5c3-4454-9109-5966d3fa2355-IMG_E9143.JPG?crop=4015,2259,x8,y0&width=3200&height=1801&format=pjpg&auto=webp",
-            "publishedAt": "2022-03-20T19:30:00Z",
-            "content": "Four people were shot and injured on Sixth Street in downtown Austin early Sunday as the first in-person South by Southwest in two years drew to a close.\r\nAll four victims were hospitalized with mino… [+3474 chars]"
-        }
-    ]
-}
+            {
+                "source": {
+                    "id": null,
+                    "name": "Phys.Org"
+                },
+                "author": "Bob Yirka",
+                "title": "Calculating the global carbon footprint of space science - Phys.org",
+                "description": "A team of researchers at Université de Toulouse has attempted to calculate the entire global footprint of space science, including both ground-based and space-based observatories. In their paper published in the journal Nature Astronomy, the team suggests the…",
+                "url": "https://phys.org/news/2022-03-global-carbon-footprint-space-science.html",
+                "urlToImage": "https://scx2.b-cdn.net/gfx/news/2022/calculating-the-global.jpg",
+                "publishedAt": "2022-03-22T20:11:03Z",
+                "content": "A team of researchers at Université de Toulouse has attempted to calculate the entire global footprint of space science, including both ground-based and space-based observatories. In their paper publ… [+2969 chars]"
+            }
+        ]
+    }
